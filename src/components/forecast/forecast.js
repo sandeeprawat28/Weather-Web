@@ -17,6 +17,7 @@ const Forecast = ({ data }) => {
   return (
     <>
       <Accordion allowZeroExpanded>
+        <label className="title"> - - - Daily Weather - - - </label>
         {data.list.splice(0, 7).map((item, idx) => (
           <AccordionItem key={idx}>
             <AccordionItemHeading>

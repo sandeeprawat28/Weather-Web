@@ -3,8 +3,13 @@
   margin: 20px auto;
 }
 
+h5 {
+  color: aliceblue;
+  text-align: center;
+}
+
 .search-container {
-  margin: 0 30%;
+  margin: 0 25%;
   outline: none;
 }
 
@@ -24,6 +29,12 @@
 .forecast {
   display: flex;
   justify-content: center; 
-  padding: 20px 0;
+  padding: 15px 0;
   margin: 10px 20px;
+}
+
+@media (max-width:780px) {
+  .search-container {
+    margin: 0 10%;
+  }
 }

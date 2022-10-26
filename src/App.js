@@ -30,6 +30,8 @@ function App() {
       .catch(console.log);
   };
 
+  const year = new Date().getFullYear();
+
   return (
     <div className="container">
       <div className="search-container">
@@ -43,6 +45,7 @@ function App() {
         {forecast && <Forecast data={forecast} />}
         </div>
       </div>
+      <h5>Copyright &copy; { year } Weather Web | Sandeep Rawat</h5>
     </div>
   );
 }
