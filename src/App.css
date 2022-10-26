@@ -1,4 +1,29 @@
 .container {
-  max-width: 1080px;
+  width: 100%;
   margin: 20px auto;
+}
+
+.search-container {
+  margin: 0 30%;
+  outline: none;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  margin: 10px 0;
+}
+
+.currentweather {
+  display: flex;
+  justify-content: center;
+  padding: 20px 0;
+  margin: 10px 20px;
+}
+
+.forecast {
+  display: flex;
+  justify-content: center; 
+  padding: 20px 0;
+  margin: 10px 20px;
 }
